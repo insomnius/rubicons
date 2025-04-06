@@ -7,13 +7,12 @@ gemspec
 group :development do
   gem 'faraday'
   gem 'faraday-follow_redirects'
+  gem 'minitest', '~> 5.25'
+  gem 'minitest-reporters'
   gem 'rails', '>= 6.0'
   gem 'rake', '~> 13.2'
   gem 'rubocop', '~> 1.75'
   gem 'rubyzip'
 end
-
-gem 'minitest', '~> 5.25', groups: %i[development test]
-gem 'minitest-reporters', groups: %i[development test]
 
 gem 'nokogiri', '~> 1.18'

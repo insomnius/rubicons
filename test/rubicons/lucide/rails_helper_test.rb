@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
-require_relative '../../../lib/rubicons/lucide'
-require_relative '../../../lib/rubicons/lucide/rails_helper'
+require 'rubicons/lucide'
+require 'rubicons/lucide/rails_helper'
 
-class Rubicons::Lucide::HelperTest < Minitest::Test
+class Rubicons::Lucide::RailsHelperTest < Minitest::Test
   # Include the helper module
-  include Rubicons::Lucide::Helper
+  include Rubicons::Lucide::RailsHelper
 
   def setup
     @test_icon_path = File.join(Rubicons::Lucide::ICONS_PATH, 'test-icon.svg')

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'test_helper'
-require_relative '../lib/rubicons/lucide'
+require 'rubicons/lucide'
 
 class LucideTest < Minitest::Test
   def setup

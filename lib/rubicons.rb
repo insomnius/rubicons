@@ -1,5 +1,11 @@
 # frozen_string_literal: true
 
+require 'rubicons/railtie'
+require 'rubicons/version'
+
 module Rubicons
-  VERSION = '0.1.0'
+  autoload :Lucide, 'rubicons/lucide'
+
+  class << self
+  end
 end

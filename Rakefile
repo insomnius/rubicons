@@ -8,4 +8,4 @@ task :default do
 end
 
 # Load custom tasks from lib/tasks
-Dir.glob('lib/tasks/**/*.rake').each { |rake_file| load rake_file }
+Dir.glob('tasks/**/*.rake').each { |rake_file| load rake_file }

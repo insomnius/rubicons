@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
-require_relative 'lib/rubicons'
-
 Gem::Specification.new do |spec|
   spec.name                   = 'rubicons'
-  spec.version                = Rubicons::VERSION
+  spec.version                = '0.1.0'
   spec.authors                = ['insomnius']
   spec.email                  = ['awake@insomnius.dev']
   spec.summary                = 'Lightweight, pure Ruby SVG icon toolkit inspired by React Icons.'
@@ -13,6 +11,6 @@ Gem::Specification.new do |spec|
   spec.license                = 'MIT'
   spec.required_ruby_version  = '>= 3.2.0'
 
-  spec.files          = Dir['lib/**/*', 'bin/*', 'README.md', 'LICENSE.txt']
+  spec.files          = Dir['lib/**/*', 'README.md', 'LICENSE', 'icons/**/*']
   spec.require_paths  = ['lib']
 end

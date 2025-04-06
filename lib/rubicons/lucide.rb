@@ -3,7 +3,9 @@
 require 'nokogiri'
 
 module Rubicons
-  class Lucide
+  module Lucide
+    autoload :RailsHelper, 'rubicons/lucide/rails_helper'
+
     SIZE_MAP = {
       xs:    '12',
       sm:    '16',
@@ -14,29 +16,30 @@ module Rubicons
     }.freeze
 
     ICONS_PATH = File.expand_path('../../icons/lucide', __dir__)
+    class << self
+      def icon(name, **options)
+        icon_path = File.join(ICONS_PATH, "#{name}.svg")
+        raise ArgumentError, "Icon '#{name}' not found" unless File.exist?(icon_path)
 
-    def self.icon(name, **options)
-      icon_path = File.join(ICONS_PATH, "#{name}.svg")
-      raise ArgumentError, "Icon '#{name}' not found" unless File.exist?(icon_path)
+        svg = File.read(icon_path)
+        doc = Nokogiri::HTML::DocumentFragment.parse(svg)
+        svg_element = doc.at_css 'svg'
 
-      svg = File.read(icon_path)
-      doc = Nokogiri::HTML::DocumentFragment.parse(svg)
-      svg_element = doc.at_css 'svg'
+        size_key = (options.delete(:size) || :md).to_sym
+        svg_size = SIZE_MAP[size_key] || SIZE_MAP[:md]
 
-      size_key = (options.delete(:size) || :md).to_sym
-      svg_size = SIZE_MAP[size_key] || SIZE_MAP[:md]
+        svg_element['width']  = svg_size
+        svg_element['height'] = svg_size
+        svg_element['class'] = options.delete(:class) if options[:class]
 
-      svg_element['width']  = svg_size
-      svg_element['height'] = svg_size
-      svg_element['class'] = options.delete(:class) if options[:class]
+        svg_element.to_s
+      end
 
-      svg_element.to_s
-    end
-
-    # Helper method to load all available icon names
-    # @return [Array<Symbol>] list of available icon names
-    def self.available_icons
-      Dir.glob("#{ICONS_PATH}/*.svg").map { |path| File.basename(path, '.svg').to_sym }
+      # Helper method to load all available icon names
+      # @return [Array<Symbol>] list of available icon names
+      def available_icons
+        Dir.glob("#{ICONS_PATH}/*.svg").map { |path| File.basename(path, '.svg').to_sym }
+      end
     end
   end
 end
