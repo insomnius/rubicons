@@ -14,5 +14,6 @@ group :development do
 end
 
 gem 'minitest', '~> 5.25', groups: %i[development test]
+gem 'minitest-reporters', groups: %i[development test]
 
 gem 'nokogiri', '~> 1.18'
