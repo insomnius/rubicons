@@ -4,7 +4,7 @@ module Rubicons
   module Radix
     # Rails view helper for Radix icons
     module RailsHelper
-      def lucide_icon(name, options = {})
+      def radix_icon(name, options = {})
         Rubicons::Radix.icon(name, **options).html_safe
       end
     end
