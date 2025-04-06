@@ -8,6 +8,12 @@ class Rubicons::Lucide::RailsHelperTest < Minitest::Test
   # Include the helper module
   include Rubicons::Lucide::RailsHelper
 
+  class ::String
+    def html_safe
+      self
+    end
+  end
+
   def setup
     @test_icon_path = File.join(Rubicons::Lucide::ICONS_PATH, 'test-icon.svg')
     @svg_content = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'

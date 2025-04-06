@@ -5,7 +5,7 @@ module Rubicons
     # Rails view helper for Lucide icons
     module RailsHelper
       def lucide_icon(name, options = {})
-        Rubicons::Lucide.icon(name, **options)
+        Rubicons::Lucide.icon(name, **options).html_safe
       end
     end
   end

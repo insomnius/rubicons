@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require 'rubicons/railtie'
 require 'rubicons/version'
+require 'rubicons/railtie' if defined?(Rails)
 
 module Rubicons
   autoload :Lucide, 'rubicons/lucide'
