@@ -1,26 +1,11 @@
+# frozen_string_literal: true
+
 require 'rake'
-require 'rake/testtask'
-
-# Define a task for running tests
-Rake::TestTask.new do |t|
-  t.libs << 'test'
-  t.pattern = 'spec/**/*_spec.rb'
-end
-
-# Define a task for building the gem
-task :build do
-  sh 'gem build rubicons.gemspec'
-end
-
-# Define a task for installing the gem
-task :install do
-  sh 'gem install rubicons-*.gem'
-end
-
-# Define a task for cleaning up generated files
-task :clean do
-  rm_rf Dir['*.gem']
-end
 
 # Define the default task
-task default: [:test, :build]
+task :default do
+  puts 'Default task executed. No specific tasks defined.'
+end
+
+# Load custom tasks from lib/tasks
+Dir.glob('lib/tasks/**/*.rake').each { |rake_file| load rake_file }

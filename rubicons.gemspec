@@ -1,13 +1,18 @@
-Gem::Specification.new do |spec|
-  spec.name          = "rubicons"
-  spec.version       = Rubicons::VERSION
-  spec.authors       = ["insomnius"]
-  spec.email         = ["awake@insomnius.dev"]
-  spec.summary       = "A brief summary of the rubicons gem."
-  spec.description   = "A longer description of the rubicons gem."
-  spec.homepage      = "https://github.com/insomnius/rubicons"
-  spec.license       = "MIT"
+# frozen_string_literal: true
 
-  spec.files         = Dir["lib/**/*", "bin/*", "README.md", "LICENSE.txt"]
-  spec.require_paths  = ["lib"]
+require_relative 'lib/rubicons'
+
+Gem::Specification.new do |spec|
+  spec.name                   = 'rubicons'
+  spec.version                = Rubicons::VERSION
+  spec.authors                = ['insomnius']
+  spec.email                  = ['awake@insomnius.dev']
+  spec.summary                = 'Lightweight, pure Ruby SVG icon toolkit inspired by React Icons.'
+  spec.description            = 'Rubicons is a pure Ruby icon toolkit inspired by react-icons, offering a simple and consistent way to include SVG-based icons in your Ruby applications without external dependencies.'
+  spec.homepage               = 'https://github.com/insomnius/rubicons'
+  spec.license                = 'MIT'
+  spec.required_ruby_version  = '>= 3.2.0'
+
+  spec.files          = Dir['lib/**/*', 'bin/*', 'README.md', 'LICENSE.txt']
+  spec.require_paths  = ['lib']
 end
