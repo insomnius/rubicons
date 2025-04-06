@@ -53,7 +53,7 @@ namespace :icons do
           # Extract the file
           puts "Extracting: #{icon_name}"
           entry.extract(output_path) { true } # Overwrite existing files
-          icon_count += 1
+          icon_count += 1 if entry.name =~ %r{lucide-main/icons/(.+\.svg)$}
         end
       end
 

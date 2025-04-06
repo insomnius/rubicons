@@ -57,7 +57,8 @@ The `rubicons` gem provides a collection of icons from various libraries. Below 
 
 | Icon Library                                                            | License                                                                                           | Version                                  | Count |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------- | ----: |
-| [Lucide](https://lucide.dev/)                                           | [ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE)                                   | v5.1.0-6-g438f572e                       |  1215 |
+| [Lucide](https://lucide.dev/)                                           | [ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE)                                   | [ed733916f30f34fb7815d76e286d9d097d73aa6b](https://github.com/lucide-icons/lucide/commit/ed733916f30f34fb7815d76e286d9d097d73aa6b)                       |  1565 |
+| [Radix Icons](https://www.radix-ui.com/icons)                                           | [MIT](https://github.com/radix-ui/icons/blob/master/LICENSE)                                   | [bde33b13aa5848555f5512ac12155930fb4beb7d](https://github.com/radix-ui/icons/commit/bde33b13aa5848555f5512ac12155930fb4beb7d)                       |  318 |
 
 ## Contributing
 

@@ -2,6 +2,7 @@
 
 require 'rails'
 require 'rubicons/lucide'
+require 'rubicons/radix_ui'
 
 module Rubicons
   # Railtie to integrate Rubicons with Rails
@@ -9,6 +10,7 @@ module Rubicons
     initializer 'rubicons.helpers' do
       ActiveSupport.on_load(:action_view) do
         include Rubicons::Lucide::RailsHelper
+        include Rubicons::Radix::RailsHelper
       end
     end
   end

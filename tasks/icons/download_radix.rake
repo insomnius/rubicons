@@ -10,16 +10,16 @@ require 'faraday'
 require 'faraday/follow_redirects'
 
 namespace :icons do
-  desc 'Download radix-ui icons from GitHub repository'
-  task :download_radix_ui do
-    puts 'Downloading radix-ui icons from GitHub zip...'
+  desc 'Download radix icons from GitHub repository'
+  task :download_radix do
+    puts 'Downloading radix icons from GitHub zip...'
 
     # Create the destination directory
-    icons_dir = File.join('icons', 'radix-ui')
+    icons_dir = File.join('icons', 'radix')
     FileUtils.mkdir_p(icons_dir)
 
     # Temporary location for the zip file
-    temp_zip = File.join(Dir.tmpdir, 'radix-ui-main.zip')
+    temp_zip = File.join(Dir.tmpdir, 'radix-main.zip')
 
     begin
       # URL for the latest main branch archive
@@ -57,7 +57,7 @@ namespace :icons do
         end
       end
 
-      puts "Successfully extracted #{icon_count} radix-ui icons to #{icons_dir}"
+      puts "Successfully extracted #{icon_count} radix icons to #{icons_dir}"
 
       # Clean up the temporary zip file
       File.delete(temp_zip)
