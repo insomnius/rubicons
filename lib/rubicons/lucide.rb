@@ -15,10 +15,6 @@ module Rubicons
 
     ICONS_PATH = File.expand_path('../../icons/lucide', __dir__)
 
-    # Returns SVG markup for the specified icon
-    # @param name [String, Symbol] the name of the icon
-    # @param options [Hash] custom attributes to override defaults
-    # @return [String] SVG markup
     def self.icon(name, **options)
       icon_path = File.join(ICONS_PATH, "#{name}.svg")
       raise ArgumentError, "Icon '#{name}' not found" unless File.exist?(icon_path)
