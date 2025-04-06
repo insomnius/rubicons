@@ -6,6 +6,8 @@ require 'json'
 require 'fileutils'
 require 'open-uri'
 require 'zip'
+require 'faraday'
+require 'faraday/follow_redirects'
 
 namespace :icons do
   desc 'Download Lucide icons from GitHub repository'
@@ -25,11 +27,15 @@ namespace :icons do
 
       puts "Downloading zip archive from #{zip_url}..."
 
+      faraday = Faraday.new do |faraday|
+        faraday.response :follow_redirects # use Faraday::FollowRedirects::Middleware
+        faraday.adapter Faraday.default_adapter
+      end
+
       # Download the zip file
-      URI.open(zip_url) do |zip_file|
-        File.open(temp_zip, 'wb') do |file|
-          file.write(zip_file.read)
-        end
+      File.open(temp_zip, 'wb') do |file|
+        response = faraday.get(zip_url)
+        file.write(response.body)
       end
 
       puts "Downloaded zip archive to #{temp_zip}"
