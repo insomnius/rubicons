@@ -172,23 +172,13 @@ All icons support the following size options:
 | `:xl` | 32×32 |
 | `:2xl` | 40×40 |
 
-## Example SVG Output
-
-When you use `Rubicons::Lucide.icon('heart')`, you get this SVG:
-
-```html
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
-```
-
-When you use `Rubicons::FontAwesome6.icon('solid-user-nurse')`, you get an SVG like:
-
-```html
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 448 512"><path d="M224 0c70.7 0 128 57.3 128 128v32h32c17.7 0 32 14.3 32 32v32c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V192c0-17.7 14.3-32 32-32h32V128C128 57.3 185.3 0 256 0h-32zM144 128v32h160V128c0-53-43-96-96-96s-96 43-96 96zM336 480v-48c0-61.9-50.1-112-112-112s-112 50.1-112 112v48c-17.7 0-32-14.3-32-32V352.8c0-48 35-88.2 82.7-94.9l21.4-3c28.2-4 57.5-4 85.8 0l21.4 3c47.8 6.7 82.7 46.9 82.7 94.9V448c0 17.7-14.3 32-32 32zM209.7 299c-7.1 2.7-11.4 9.8-10.4 17.3l4 30c1.3 9.9 13.9 13 20.5 5l16.8-20.5c2.4-3 7.1-3 9.5 0l16.8 20.5c6.6 8 19.2 4.9 20.5-5l4-30c1-7.5-3.3-14.6-10.4-17.3C259.8 290.7 242.7 288 224 288s-35.8 2.7-47.7 7c.8 1 1.7 2 2.7 3l6.7 8.5c.3 .4 .7 .5 1.1 .5c.2 0 .4-.1 .6-.1c5.5-1.4 11.3-2.2 17.3-2.7c10.1-.9 20.7-.9 30.8 0c6 .5 11.8 1.4 17.3 2.7c.2 .1 .4 .1 .6 .1c.4 0 .8-.2 1.1-.5l6.7-8.5c.3-.4 .7-.2 1.2-1.4c.5-1.7-.2-1.7-1.2-1.7c-7.7-2.3-15.9-3.9-24.3-4.8c-11.6-1.3-23.6-1.3-35.2 0c-8.4 .9-16.6 2.6-24.3 4.8c-1 .3-1.7 0-1.2 1.7c.4 1.2 .9 1 1.2 1.4l6.7 8.5z"/></svg>
-```
-
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/insomnius/rubicons.
+
+## Code of Conduct
+
+[Code of conduct](CODE_OF_CONDUCT) is based on the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.0. Please read it to understand our expectations for participants.
 
 ## License
 
