@@ -10,6 +10,8 @@ require 'faraday'
 require 'faraday/follow_redirects'
 
 namespace :icons do
+  # Lucide icons are released under the ISC License
+  # License: https://github.com/lucide-icons/lucide/blob/main/LICENSE
   desc 'Download Lucide icons from GitHub repository'
   task :download_lucide do
     puts 'Downloading Lucide icons from GitHub zip...'

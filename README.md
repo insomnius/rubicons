@@ -1,12 +1,20 @@
-# rubicons
+# Rubicons
 
-Rubicons is a Ruby gem that provides a collection of icons from various libraries. It is designed to be easy to use and integrate into your Ruby applications.
+Rubicons is a lightweight, pure Ruby SVG icon toolkit inspired by React Icons. It provides a simple and consistent way to include beautiful SVG icons in your Ruby and Rails applications without external dependencies.
 
 [![Gem Version](https://badge.fury.io/rb/rubicons.svg)](https://badge.fury.io/rb/rubicons)
 
+## Features
+
+- **Pure Ruby implementation** - no JavaScript dependencies
+- **SVG-based icons** - scalable without quality loss
+- **Multiple icon libraries** - access thousands of icons from popular icon sets
+- **Rails integration** - seamlessly works with Rails via helper methods
+- **Customizable** - easily change size, color, and add CSS classes
+
 ## Installation
 
-To install the `rubicons` gem, add this line to your application's Gemfile:
+Add this line to your application's Gemfile:
 
 ```ruby
 gem 'rubicons'
@@ -14,24 +22,44 @@ gem 'rubicons'
 
 And then execute:
 
-    $ bundle install
+```bash
+$ bundle install
+```
 
 Or install it yourself as:
 
-    $ gem install rubicons
+```bash
+$ gem install rubicons
+```
 
-## Icons
+## Icon Collections
 
-The `rubicons` gem provides a collection of icons from various libraries. Below is a list of the available icon libraries along with their licenses, versions, and icon counts.
+Rubicons provides access to **20** popular icon libraries with thousands of icons:
 
-| Icon Library                                                            | License                                                                                           | Version                                  | Count |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------- | ----: |
-| [Lucide](https://lucide.dev/)                                           | [ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE)                                   | [ed733916f30f34fb7815d76e286d9d097d73aa6b](https://github.com/lucide-icons/lucide/commit/ed733916f30f34fb7815d76e286d9d097d73aa6b)                       |  1565 |
-| [Radix Icons](https://www.radix-ui.com/icons)                                           | [MIT](https://github.com/radix-ui/icons/blob/master/LICENSE)                                   | [bde33b13aa5848555f5512ac12155930fb4beb7d](https://github.com/radix-ui/icons/commit/bde33b13aa5848555f5512ac12155930fb4beb7d)                       |  318 |
+| Icon Library | Version | License | Count | Example Icons |
+| --- | --- | --- | ---: | --- |
+| [Lucide](https://lucide.dev/) | Latest | [ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1,565+ | `activity`, `alert-circle`, `arrow-right`, `check`, `heart` |
+| [Radix UI](https://www.radix-ui.com/icons) | Latest | [MIT](https://github.com/radix-ui/icons/blob/master/LICENSE) | 318+ | `accessible`, `archive`, `bell`, `calendar`, `caret-right` |
+| [Bootstrap](https://icons.getbootstrap.com/) | v1.11.3 | [MIT](https://github.com/twbs/icons/blob/main/LICENSE) | 1,800+ | `alarm`, `arrow-left`, `calendar`, `chat`, `heart` |
+| [Box Icons](https://boxicons.com/) | Latest | [MIT/CC 4.0](https://github.com/atisawd/boxicons/blob/master/LICENSE) | 1,500+ | `bx-home`, `bx-search`, `bx-menu`, `bx-user`, `bxl-github` |
+| [Circum Icons](https://circumicons.com/) | Latest | [MPL-2.0](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 244+ | `arrow`, `check`, `home`, `menu`, `user` |
+| [Feather](https://feathericons.com/) | v4.29.1 | [MIT](https://github.com/feathericons/feather/blob/master/LICENSE) | 287+ | `activity`, `award`, `cloud`, `message-square`, `star` |
+| [Font Awesome 5](https://fontawesome.com/) | v5.15.4 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/5.x/LICENSE.txt) | 1,612+ | `user`, `home`, `university`, `paper-plane`, `star` |
+| [Font Awesome 6](https://fontawesome.com/) | v6.5.2 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 2,025+ | `user-nurse`, `house`, `flag`, `shield`, `tachograph-digital` |
+| [Heroicons v1](https://v1.heroicons.com/) | v1.0.6 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 230+ | `academic-cap`, `folder-remove`, `home`, `menu`, `user` |
+| [Heroicons v2](https://heroicons.com/) | v2.1.3 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 285+ | `academic-cap`, `arrow-left`, `home`, `tv`, `user` |
+| [Ionicons 4](https://ionic.io/ionicons/v4) | v4.6.4-1 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 696+ | `add`, `alarm`, `home`, `mail`, `menu` |
+| [Ionicons 5](https://ionic.io/ionicons) | v5.5.4 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 1,300+ | `add`, `alarm`, `home`, `mail`, `menu` |
+| [Line Awesome](https://icons8.com/line-awesome) | Latest | [MIT/Good Boy](https://github.com/icons8/line-awesome/blob/master/LICENSE.md) | 1,544+ | `address-book`, `heart`, `twitter`, `user`, `youtube` |
+| [Material Design](https://materialdesignicons.com/) | v4.0.0 | [Apache 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | 1,100+ | `3d-rotation`, `accessibility`, `account-circle`, `home`, `settings` |
+| [Octicons](https://primer.github.io/octicons/) | v18.3.0 | [MIT](https://github.com/primer/octicons/blob/main/LICENSE) | 200+ | `alert`, `check`, `code`, `git-branch`, `mark-github` |
+| [Phosphor Icons](https://phosphoricons.com/) | Latest | [MIT](https://github.com/phosphor-icons/core/blob/main/LICENSE) | 6,200+ | `activity`, `airplane`, `bell`, `car`, `user` |
+| [Remix Icon](https://remixicon.com/) | v4.2.0 | [Apache 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 2,700+ | `home`, `user`, `settings`, `search`, `arrow-right` |
+| [Tabler Icons](https://tabler-icons.io/) | v3.31.0 | [MIT](https://github.com/tabler/tabler-icons/blob/master/LICENSE) | 4,700+ | `home`, `user`, `settings`, `search`, `arrow-right` |
+| [Typicons](https://www.s-ings.com/typicons/) | v2.1.2 | [SIL OFL](https://github.com/stephenhutchings/typicons.font/blob/master/README.md#license) | 336+ | `anchor`, `heart`, `home`, `user`, `warning` |
+| [Weather Icons](https://erikflowers.github.io/weather-icons/) | v2.0.12 | [SIL OFL 1.1](https://github.com/erikflowers/weather-icons/blob/master/COPYING) | 219+ | `cloud`, `day-sunny`, `rain`, `snow`, `wind` |
 
-I'll create a comprehensive "How to Use" section for your README that covers both standalone and Rails Action View usage, including SVG examples for each icon library. Here's how it could look:
-
-## How to Use
+## Usage
 
 ### Standalone Usage
 
@@ -41,10 +69,12 @@ You can use Rubicons in any Ruby application without Rails. First, require the g
 require 'rubicons'
 ```
 
+Then use any of the icon libraries:
+
 #### Using Lucide Icons
 
 ```ruby
-# Get a simple icon with default options (medium size)
+# Get an icon with default options (medium size)
 svg = Rubicons::Lucide.icon('heart')
 
 # With custom size
@@ -57,109 +87,109 @@ svg = Rubicons::Lucide.icon('heart', class: 'text-red-500')
 icon_names = Rubicons::Lucide.available_icons
 ```
 
-This generates an SVG element:
-
-```html
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
-```
-
-#### Using Radix Icons
+#### Using Bootstrap Icons
 
 ```ruby
-# Get a simple icon with default options
-svg = Rubicons::Radix.icon('heart')
+# Get an icon with default options
+svg = Rubicons::Bootstrap.icon('heart-fill')
 
 # With custom size
-svg = Rubicons::Radix.icon('heart', size: :xl)
+svg = Rubicons::Bootstrap.icon('heart-fill', size: :xl)
 
 # With custom class
-svg = Rubicons::Radix.icon('heart', class: 'icon-primary')
-
-# List all available icons
-icon_names = Rubicons::Radix.available_icons
+svg = Rubicons::Bootstrap.icon('heart-fill', class: 'text-danger')
 ```
 
-This generates an SVG element:
+#### Using Font Awesome Icons
 
-```html
-<svg width="24" height="24" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.89346 2.35248C3.49195 2.35248 2.35248 3.49359 2.35248 4.90532C2.35248 6.38164 3.38046 7.61814 4.47057 8.5641C5.55704 9.50695 6.69248 10.1771 7.50002 10.6459C8.30757 10.1771 9.44302 9.50695 10.5295 8.5641C11.6196 7.61814 12.6476 6.38164 12.6476 4.90532C12.6476 3.49359 11.5081 2.35248 10.1066 2.35248C9.27059 2.35248 8.81894 2.64323 8.5397 2.95843C8.27877 3.25295 8.14623 3.58566 8.02501 3.88993L8.00064 3.94565C7.94202 4.09766 7.88485 4.24628 7.80625 4.36017C7.69262 4.52776 7.52197 4.70565 7.50002 4.70565C7.47807 4.70565 7.30742 4.52776 7.1938 4.36017C7.11519 4.24628 7.05802 4.09766 6.9994 3.94565L6.97504 3.88993C6.85381 3.58566 6.72127 3.25295 6.46034 2.95843C6.1811 2.64323 5.72945 2.35248 4.89346 2.35248Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+```ruby
+# Font Awesome 5
+svg = Rubicons::FontAwesome5.icon('solid-paper-plane')
+
+# Font Awesome 6
+svg = Rubicons::FontAwesome6.icon('solid-user-nurse')
+```
+
+#### Using Heroicons
+
+```ruby
+# Heroicons v1
+svg = Rubicons::Heroicons.icon('outline-folder-remove')
+
+# Heroicons v2
+svg = Rubicons::Heroicons2.icon('16-solid-tv')
 ```
 
 ### Rails Integration
 
-Rubicons comes with Rails view helpers that make it easy to use icons in your views.
-
-#### Setup
-
-The helpers are automatically included in your ActionView context. You don't need any additional setup beyond adding the gem to your Gemfile.
-
-#### Using Lucide Icons in Views
+In a Rails application, Rubicons automatically integrates with ActionView to provide helper methods for each icon library:
 
 ```erb
-<%# Basic icon %>
-<%= lucide_icon('heart') %>
+<%# Lucide Icons %>
+<%= lucide_icon 'heart', class: 'text-red-500', size: :lg %>
 
-<%# With size options (xs, sm, md, lg, xl, 2xl) %>
-<%= lucide_icon('heart', size: :lg) %>
+<%# Radix Icons %>
+<%= radix_icon 'heart', class: 'icon-primary' %>
 
-<%# With custom class %>
-<%= lucide_icon('heart', class: 'text-red-500 inline-block') %>
-```
+<%# Bootstrap Icons %>
+<%= bootstrap_icon 'heart-fill', class: 'text-danger' %>
 
-#### Using Radix Icons in Views
+<%# Box Icons %>
+<%= box_icon 'bx-home' %>
 
-```erb
-<%# Basic icon %>
-<%= radix_icon('heart') %>
+<%# Font Awesome 5 %>
+<%= fa5_icon 'solid-paper-plane', size: :xl %>
 
-<%# With size options (xs, sm, md, lg, xl, 2xl) %>
-<%= radix_icon('heart', size: :xl) %>
+<%# Font Awesome 6 %>
+<%= fa6_icon 'solid-user-nurse' %>
 
-<%# With custom class %>
-<%= radix_icon('heart', class: 'icon-primary inline-block') %>
+<%# Heroicons v1 %>
+<%= heroicon 'outline-folder-remove' %>
+
+<%# Heroicons v2 %>
+<%= heroicon2 '16-solid-tv' %>
+
+<%# Circum Icons %>
+<%= circum_icon 'arrow' %>
+
+<%# Feather Icons %>
+<%= feather_icon 'activity' %>
+
+<%# Ionicons 4 %>
+<%= ion4_icon 'home' %>
 ```
 
 ### Available Sizes
 
-Both icon libraries support these predefined sizes:
+All icons support the following size options:
 
-| Size | Dimensions (pixels) |
-|------|---------------------|
-| xs   | 12×12               |
-| sm   | 16×16               |
-| md   | 20×20 (default)     |
-| lg   | 24×24               |
-| xl   | 32×32               |
-| 2xl  | 40×40               |
+| Size | Dimensions |
+| --- | --- |
+| `:xs` | 12×12 |
+| `:sm` | 16×16 |
+| `:md` | 20×20 (default) |
+| `:lg` | 24×24 |
+| `:xl` | 32×32 |
+| `:2xl` | 40×40 |
 
-### Icon Usage Examples
+## Example SVG Output
 
-You can use these icons anywhere HTML is supported:
+When you use `Rubicons::Lucide.icon('heart')`, you get this SVG:
 
-```erb
-<button class="btn btn-primary">
-  <%= lucide_icon('save', size: :sm, class: 'mr-2') %>
-  Save Changes
-</button>
-
-<div class="alert alert-info">
-  <%= radix_icon('info', size: :lg, class: 'align-middle') %>
-  <span>Please review the changes before continuing.</span>
-</div>
+```html
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
 ```
 
-For a complete list of available icons, visit:
-- [Lucide Icons](https://lucide.dev/)
-- [Radix Icons](https://www.radix-ui.com/icons)
+When you use `Rubicons::FontAwesome6.icon('solid-user-nurse')`, you get an SVG like:
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 448 512"><path d="M224 0c70.7 0 128 57.3 128 128v32h32c17.7 0 32 14.3 32 32v32c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V192c0-17.7 14.3-32 32-32h32V128C128 57.3 185.3 0 256 0h-32zM144 128v32h160V128c0-53-43-96-96-96s-96 43-96 96zM336 480v-48c0-61.9-50.1-112-112-112s-112 50.1-112 112v48c-17.7 0-32-14.3-32-32V352.8c0-48 35-88.2 82.7-94.9l21.4-3c28.2-4 57.5-4 85.8 0l21.4 3c47.8 6.7 82.7 46.9 82.7 94.9V448c0 17.7-14.3 32-32 32zM209.7 299c-7.1 2.7-11.4 9.8-10.4 17.3l4 30c1.3 9.9 13.9 13 20.5 5l16.8-20.5c2.4-3 7.1-3 9.5 0l16.8 20.5c6.6 8 19.2 4.9 20.5-5l4-30c1-7.5-3.3-14.6-10.4-17.3C259.8 290.7 242.7 288 224 288s-35.8 2.7-47.7 7c.8 1 1.7 2 2.7 3l6.7 8.5c.3 .4 .7 .5 1.1 .5c.2 0 .4-.1 .6-.1c5.5-1.4 11.3-2.2 17.3-2.7c10.1-.9 20.7-.9 30.8 0c6 .5 11.8 1.4 17.3 2.7c.2 .1 .4 .1 .6 .1c.4 0 .8-.2 1.1-.5l6.7-8.5c.3-.4 .7-.2 1.2-1.4c.5-1.7-.2-1.7-1.2-1.7c-7.7-2.3-15.9-3.9-24.3-4.8c-11.6-1.3-23.6-1.3-35.2 0c-8.4 .9-16.6 2.6-24.3 4.8c-1 .3-1.7 0-1.2 1.7c.4 1.2 .9 1 1.2 1.4l6.7 8.5z"/></svg>
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/insomnius/rubicons/fork )
-2. Create your feature branch (git checkout -b feature/my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin feature/my-new-feature)
-5. Create a new Pull Request
+Bug reports and pull requests are welcome on GitHub at https://github.com/insomnius/rubicons.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

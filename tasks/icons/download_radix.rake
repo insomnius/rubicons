@@ -10,6 +10,8 @@ require 'faraday'
 require 'faraday/follow_redirects'
 
 namespace :icons do
+  # Radix Icons are released under the MIT License
+  # License: https://github.com/radix-ui/icons/blob/master/LICENSE
   desc 'Download radix icons from GitHub repository'
   task :download_radix do
     puts 'Downloading radix icons from GitHub zip...'
