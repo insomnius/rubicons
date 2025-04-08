@@ -48,16 +48,13 @@ namespace :icons do
       Zip::File.open(temp_zip) do |zip|
         zip.each do |entry|
           # Match SVG files for all styles
-          next unless entry.name =~ %r{core-main/assets/regular|bold|duotone|fill|light|thin/(.+\.svg)$}
+          next unless entry.name =~ %r{core-main/assets/(regular|bold|duotone|fill|light|thin)/(.+\.svg)$}
 
-          style_path = entry.name.split('/')[-2] # Extract the style (regular, bold, etc.)
-          icon_name = Regexp.last_match(1)
-          # Prefix icon name with style to avoid conflicts
-          prefixed_name = "#{style_path}-#{icon_name}"
-          output_path = File.join(icons_dir, prefixed_name)
+          icon_name = Regexp.last_match(2)
+          output_path = File.join(icons_dir, icon_name)
 
           # Extract the file
-          puts "Extracting: #{prefixed_name}"
+          puts "Extracting: #{icon_name}"
           entry.extract(output_path) { true } # Overwrite existing files
           icon_count += 1
         end

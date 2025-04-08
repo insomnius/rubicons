@@ -49,10 +49,9 @@ namespace :icons do
         zip.each do |entry|
           next unless entry.name =~ %r{RemixIcon-4\.2\.0/icons/(.+)/(.+)\.svg$}
 
-          category = Regexp.last_match(1)
           icon_name = Regexp.last_match(2)
           # Prefix with category to avoid conflicts
-          prefixed_name = "#{category}-#{icon_name}.svg"
+          prefixed_name = "#{icon_name}.svg"
           output_path = File.join(icons_dir, prefixed_name)
 
           # Extract the file

@@ -38,26 +38,26 @@ Rubicons provides access to **20** popular icon libraries with thousands of icon
 
 | Icon Library | Version | License | Count | Example Icons |
 | --- | --- | --- | ---: | --- |
-| [Lucide](https://lucide.dev/) | Latest | [ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1,565+ | `activity`, `alert-circle`, `arrow-right`, `check`, `heart` |
-| [Radix UI](https://www.radix-ui.com/icons) | Latest | [MIT](https://github.com/radix-ui/icons/blob/master/LICENSE) | 318+ | `accessible`, `archive`, `bell`, `calendar`, `caret-right` |
-| [Bootstrap](https://icons.getbootstrap.com/) | v1.11.3 | [MIT](https://github.com/twbs/icons/blob/main/LICENSE) | 1,800+ | `alarm`, `arrow-left`, `calendar`, `chat`, `heart` |
-| [Box Icons](https://boxicons.com/) | Latest | [MIT/CC 4.0](https://github.com/atisawd/boxicons/blob/master/LICENSE) | 1,500+ | `bx-home`, `bx-search`, `bx-menu`, `bx-user`, `bxl-github` |
-| [Circum Icons](https://circumicons.com/) | Latest | [MPL-2.0](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 244+ | `arrow`, `check`, `home`, `menu`, `user` |
-| [Feather](https://feathericons.com/) | v4.29.1 | [MIT](https://github.com/feathericons/feather/blob/master/LICENSE) | 287+ | `activity`, `award`, `cloud`, `message-square`, `star` |
-| [Font Awesome 5](https://fontawesome.com/) | v5.15.4 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/5.x/LICENSE.txt) | 1,612+ | `user`, `home`, `university`, `paper-plane`, `star` |
-| [Font Awesome 6](https://fontawesome.com/) | v6.5.2 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 2,025+ | `user-nurse`, `house`, `flag`, `shield`, `tachograph-digital` |
-| [Heroicons v1](https://v1.heroicons.com/) | v1.0.6 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 230+ | `academic-cap`, `folder-remove`, `home`, `menu`, `user` |
-| [Heroicons v2](https://heroicons.com/) | v2.1.3 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 285+ | `academic-cap`, `arrow-left`, `home`, `tv`, `user` |
-| [Ionicons 4](https://ionic.io/ionicons/v4) | v4.6.4-1 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 696+ | `add`, `alarm`, `home`, `mail`, `menu` |
-| [Ionicons 5](https://ionic.io/ionicons) | v5.5.4 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 1,300+ | `add`, `alarm`, `home`, `mail`, `menu` |
-| [Line Awesome](https://icons8.com/line-awesome) | Latest | [MIT/Good Boy](https://github.com/icons8/line-awesome/blob/master/LICENSE.md) | 1,544+ | `address-book`, `heart`, `twitter`, `user`, `youtube` |
-| [Material Design](https://materialdesignicons.com/) | v4.0.0 | [Apache 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | 1,100+ | `3d-rotation`, `accessibility`, `account-circle`, `home`, `settings` |
-| [Octicons](https://primer.github.io/octicons/) | v18.3.0 | [MIT](https://github.com/primer/octicons/blob/main/LICENSE) | 200+ | `alert`, `check`, `code`, `git-branch`, `mark-github` |
-| [Phosphor Icons](https://phosphoricons.com/) | Latest | [MIT](https://github.com/phosphor-icons/core/blob/main/LICENSE) | 6,200+ | `activity`, `airplane`, `bell`, `car`, `user` |
-| [Remix Icon](https://remixicon.com/) | v4.2.0 | [Apache 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 2,700+ | `home`, `user`, `settings`, `search`, `arrow-right` |
-| [Tabler Icons](https://tabler-icons.io/) | v3.31.0 | [MIT](https://github.com/tabler/tabler-icons/blob/master/LICENSE) | 4,700+ | `home`, `user`, `settings`, `search`, `arrow-right` |
-| [Typicons](https://www.s-ings.com/typicons/) | v2.1.2 | [SIL OFL](https://github.com/stephenhutchings/typicons.font/blob/master/README.md#license) | 336+ | `anchor`, `heart`, `home`, `user`, `warning` |
-| [Weather Icons](https://erikflowers.github.io/weather-icons/) | v2.0.12 | [SIL OFL 1.1](https://github.com/erikflowers/weather-icons/blob/master/COPYING) | 219+ | `cloud`, `day-sunny`, `rain`, `snow`, `wind` |
+| [Lucide](https://lucide.dev/) | Latest | [ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1,565 | `heart`, `activity`, `book`, `check`, `user` |
+| [Radix UI](https://www.radix-ui.com/icons) | Latest | [MIT](https://github.com/radix-ui/icons/blob/master/LICENSE) | 318 | `accessibility`, `activity-log`, `align-bottom`, `align-center-horizontally`, `bookmark` |
+| [Bootstrap](https://icons.getbootstrap.com/) | v1.11.3 | [MIT](https://github.com/twbs/icons/blob/main/LICENSE) | 2,050 | `alarm`, `heart`, `calendar`, `circle`, `house` |
+| [Box Icons](https://boxicons.com/) | Latest | [MIT/CC 4.0](https://github.com/atisawd/boxicons/blob/master/LICENSE) | 1,634 | `bx-home`, `bx-search`, `bx-menu`, `bx-user`, `bxl-github` |
+| [Circum Icons](https://circumicons.com/) | Latest | [MPL-2.0](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 288 | `alarm-on`, `align-center-h`, `arrow`, `check`, `user` |
+| [Feather](https://feathericons.com/) | v4.29.1 | [MIT](https://github.com/feathericons/feather/blob/master/LICENSE) | 287 | `activity`, `alert-circle`, `airplay`, `message-square`, `star` |
+| [Font Awesome 5](https://fontawesome.com/) | v5.15.4 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/5.x/LICENSE.txt) | 1,612 | `brands-github`, `solid-user`, `regular-heart`, `solid-home`, `solid-star` |
+| [Font Awesome 6](https://fontawesome.com/) | v6.5.2 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 2,045 | `brands-github`, `solid-user`, `solid-house`, `solid-flag`, `solid-shield` |
+| [Heroicons v1](https://v1.heroicons.com/) | v1.0.6 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 460 | `outline-academic-cap`, `outline-archive`, `solid-home`, `outline-menu`, `solid-user` |
+| [Heroicons v2](https://heroicons.com/) | v2.1.3 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 1,176 | `16-solid-academic-cap`, `24-outline-home`, `24-solid-user`, `20-solid-calendar`, `16-outline-bell` |
+| [Ionicons 4](https://ionic.io/ionicons/v4) | v4.6.4-1 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 696 | `ios-add`, `ios-alarm`, `ios-home`, `md-mail`, `md-menu` |
+| [Ionicons 5](https://ionic.io/ionicons) | v5.5.4 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 1,332 | `accessibility`, `add-circle`, `home`, `mail`, `menu` |
+| [Line Awesome](https://icons8.com/line-awesome) | Latest | [MIT/Good Boy](https://github.com/icons8/line-awesome/blob/master/LICENSE.md) | 1,544 | `500px`, `accessible-icon`, `github`, `user-solid`, `heart` |
+| [Material Design](https://materialdesignicons.com/) | v4.0.0 | [Apache 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | 11,803 | `action-3d-rotation`, `action-accessibility`, `action-account-circle`, `content-home`, `action-settings` |
+| [Octicons](https://primer.github.io/octicons/) | v18.3.0 | [MIT](https://github.com/primer/octicons/blob/main/LICENSE) | 576 | `accessibility-16`, `alert-16`, `check-16`, `code-16`, `mark-github-16` |
+| [Phosphor Icons](https://phosphoricons.com/) | Latest | [MIT](https://github.com/phosphor-icons/core/blob/main/LICENSE) | 9,072 | `acorn-bold`, `user-bold`, `heart-fill`, `house-line`, `calendar` |
+| [Remix Icon](https://remixicon.com/) | v4.2.0 | [Apache 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 2,860 | `arrow-down-circle-fill`, `home-line`, `user-fill`, `search-line`, `check-line` |
+| [Tabler Icons](https://tabler-icons.io/) | v3.31.0 | [MIT](https://github.com/tabler/tabler-icons/blob/master/LICENSE) | 5,880 | `filled-accessible`, `filled-home`, `filled-user`, `filled-search`, `brand-github` |
+| [Typicons](https://www.s-ings.com/typicons/) | v2.1.2 | [SIL OFL](https://github.com/stephenhutchings/typicons.font/blob/master/README.md#license) | 336 | `anchor`, `adjust-brightness`, `adjust-contrast`, `archive`, `heart` |
+| [Weather Icons](https://erikflowers.github.io/weather-icons/) | v2.0.12 | [SIL OFL 1.1](https://github.com/erikflowers/weather-icons/blob/master/COPYING) | 219 | `wi-alien`, `wi-barometer`, `wi-celsius`, `wi-cloud-refresh`, `wi-cloud-down` |
 
 ## Usage
 
