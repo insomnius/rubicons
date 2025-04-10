@@ -56,6 +56,7 @@ Rubicons provides access to **20** popular icon libraries with thousands of icon
 | [Phosphor Icons](https://phosphoricons.com/) | Latest | [MIT](https://github.com/phosphor-icons/core/blob/main/LICENSE) | 9,072 | `acorn-bold`, `user-bold`, `heart-fill`, `house-line`, `calendar` |
 | [Remix Icon](https://remixicon.com/) | v4.2.0 | [Apache 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 2,860 | `arrow-down-circle-fill`, `home-line`, `user-fill`, `search-line`, `check-line` |
 | [Tabler Icons](https://tabler-icons.io/) | v3.31.0 | [MIT](https://github.com/tabler/tabler-icons/blob/master/LICENSE) | 5,880 | `filled-accessible`, `filled-home`, `filled-user`, `filled-search`, `brand-github` |
+| [Themify](https://themify.me/themify-icons) | v1.0.1 | [SIL OFL/MIT](https://github.com/lykmapipo/themify-icons/blob/master/README.md#license) | 352 | `angle-down`, `agenda`, `alarm-clock`, `alert`, `align-center` |
 | [Typicons](https://www.s-ings.com/typicons/) | v2.1.2 | [SIL OFL](https://github.com/stephenhutchings/typicons.font/blob/master/README.md#license) | 336 | `anchor`, `adjust-brightness`, `adjust-contrast`, `archive`, `heart` |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | v2.0.12 | [SIL OFL 1.1](https://github.com/erikflowers/weather-icons/blob/master/COPYING) | 219 | `wi-alien`, `wi-barometer`, `wi-celsius`, `wi-cloud-refresh`, `wi-cloud-down` |
 

@@ -7,6 +7,10 @@ module Rubicons
       def fa5_icon(name, options = {})
         Rubicons::FontAwesome5.icon(name, **options).html_safe
       end
+
+      def fa5_icon!(name, options = {})
+        Rubicons::FontAwesome5.icon!(name, **options).html_safe
+      end
     end
   end
 end

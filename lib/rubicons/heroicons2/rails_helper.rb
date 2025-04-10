@@ -7,6 +7,10 @@ module Rubicons
       def heroicon2(name, options = {})
         Rubicons::Heroicons2.icon(name, **options).html_safe
       end
+
+      def heroicon2!(name, options = {})
+        Rubicons::Heroicons2.icon!(name, **options).html_safe
+      end
     end
   end
 end

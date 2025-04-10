@@ -7,6 +7,10 @@ module Rubicons
       def octicon(name, options = {})
         Rubicons::Octicons.icon(name, **options).html_safe
       end
+
+      def octicon!(name, options = {})
+        Rubicons::Octicons.icon!(name, **options).html_safe
+      end
     end
   end
 end

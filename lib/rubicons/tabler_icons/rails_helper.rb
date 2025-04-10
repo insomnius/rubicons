@@ -7,6 +7,10 @@ module Rubicons
       def tabler_icon(name, options = {})
         Rubicons::TablerIcons.icon(name, **options).html_safe
       end
+
+      def tabler_icon!(name, options = {})
+        Rubicons::TablerIcons.icon!(name, **options).html_safe
+      end
     end
   end
 end

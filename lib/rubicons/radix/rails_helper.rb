@@ -7,6 +7,10 @@ module Rubicons
       def radix_icon(name, options = {})
         Rubicons::Radix.icon(name, **options).html_safe
       end
+
+      def radix_icon!(name, options = {})
+        Rubicons::Radix.icon!(name, **options).html_safe
+      end
     end
   end
 end

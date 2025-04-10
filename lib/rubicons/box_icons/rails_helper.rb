@@ -7,6 +7,10 @@ module Rubicons
       def box_icon(name, options = {})
         Rubicons::BoxIcons.icon(name, **options).html_safe
       end
+
+      def box_icon!(name, options = {})
+        Rubicons::BoxIcons.icon!(name, **options).html_safe
+      end
     end
   end
 end

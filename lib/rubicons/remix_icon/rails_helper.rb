@@ -7,6 +7,10 @@ module Rubicons
       def remix_icon(name, options = {})
         Rubicons::RemixIcon.icon(name, **options).html_safe
       end
+
+      def remix_icon!(name, options = {})
+        Rubicons::RemixIcon.icon!(name, **options).html_safe
+      end
     end
   end
 end

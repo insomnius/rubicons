@@ -7,6 +7,10 @@ module Rubicons
       def simple_icon(name, options = {})
         Rubicons::SimpleIcons.icon(name, **options).html_safe
       end
+
+      def simple_icon!(name, options = {})
+        Rubicons::SimpleIcons.icon!(name, **options).html_safe
+      end
     end
   end
 end

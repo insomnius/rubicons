@@ -7,6 +7,10 @@ module Rubicons
       def feather_icon(name, options = {})
         Rubicons::Feather.icon(name, **options).html_safe
       end
+
+      def feather_icon!(name, options = {})
+        Rubicons::Feather.icon!(name, **options).html_safe
+      end
     end
   end
 end

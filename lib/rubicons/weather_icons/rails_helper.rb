@@ -7,6 +7,10 @@ module Rubicons
       def weather_icon(name, options = {})
         Rubicons::WeatherIcons.icon(name, **options).html_safe
       end
+
+      def weather_icon!(name, options = {})
+        Rubicons::WeatherIcons.icon!(name, **options).html_safe
+      end
     end
   end
 end

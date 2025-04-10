@@ -24,6 +24,12 @@ module Rubicons
     # @option options [Hash] :size_map custom size mapping
     # @return [String] rendered SVG
     def render_icon(name, icons_path, **options)
+      render_icon!(name, icons_path, **options)
+    rescue
+      ''
+    end
+
+    def render_icon!(name, icons_path, **options)
       icon_path = File.join(icons_path, "#{name}.svg")
       raise ArgumentError, "Icon '#{name}' not found" unless File.exist?(icon_path)
 

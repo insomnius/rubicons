@@ -7,6 +7,10 @@ module Rubicons
       def bootstrap_icon(name, options = {})
         Rubicons::Bootstrap.icon(name, **options).html_safe
       end
+
+      def bootstrap_icon!(name, options = {})
+        Rubicons::Bootstrap.icon!(name, **options).html_safe
+      end
     end
   end
 end

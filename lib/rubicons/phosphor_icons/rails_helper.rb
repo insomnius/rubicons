@@ -7,6 +7,10 @@ module Rubicons
       def phosphor_icon(name, options = {})
         Rubicons::PhosphorIcons.icon(name, **options).html_safe
       end
+
+      def phosphor_icon!(name, options = {})
+        Rubicons::PhosphorIcons.icon!(name, **options).html_safe
+      end
     end
   end
 end

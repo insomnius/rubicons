@@ -7,6 +7,10 @@ module Rubicons
       def ion5_icon(name, options = {})
         Rubicons::Ionicons5.icon(name, **options).html_safe
       end
+
+      def ion5_icon!(name, options = {})
+        Rubicons::Ionicons5.icon!(name, **options).html_safe
+      end
     end
   end
 end

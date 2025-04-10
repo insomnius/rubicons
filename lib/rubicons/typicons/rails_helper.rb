@@ -7,6 +7,10 @@ module Rubicons
       def typicon(name, options = {})
         Rubicons::Typicons.icon(name, **options).html_safe
       end
+
+      def typicon!(name, options = {})
+        Rubicons::Typicons.icon!(name, **options).html_safe
+      end
     end
   end
 end

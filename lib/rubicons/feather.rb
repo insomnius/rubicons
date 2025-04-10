@@ -17,6 +17,10 @@ module Rubicons
         render_icon(name, ICONS_PATH, **options)
       end
 
+      def icon!(name, **options)
+        render_icon!(name, ICONS_PATH, **options)
+      end
+
       def available_icons
         available_icons(ICONS_PATH)
       end
