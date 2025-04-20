@@ -2,6 +2,7 @@
 
 require 'rubicons/version'
 require 'rubicons/railtie' if defined?(Rails)
+require 'rubicons/base_icon_set'
 
 module Rubicons
   autoload :Lucide, 'rubicons/lucide'
