@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Rubicons
   module ThemifyIcons
     # Rails view helper for Themify Icons

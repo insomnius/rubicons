@@ -6,22 +6,31 @@ module Rubicons
   module Lucide
     autoload :RailsHelper, 'rubicons/lucide/rails_helper'
 
-    extend BaseIconSet
-
-    SIZE_MAP = BaseIconSet::DEFAULT_SIZE_MAP.freeze
     ICONS_PATH = File.expand_path('../../icons/lucide', __dir__)
 
     class << self
+      def pack_name
+        'Lucide'
+      end
+
+      def description
+        'Lucide is a beautiful and consistent icon toolkit made by the community. It is a fork of Feather Icons with hundreds of additional icons and active community development.'
+      end
+
+      def license
+        'ISC'
+      end
+
       def icon(name, **options)
-        render_icon(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, **options)
       end
 
       def icon!(name, **options)
-        render_icon!(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, **options)
       end
 
       def available_icons
-        available_icons(ICONS_PATH)
+        BaseIconSet.available_icons(ICONS_PATH)
       end
     end
   end

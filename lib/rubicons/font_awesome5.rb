@@ -7,22 +7,31 @@ module Rubicons
   module FontAwesome5
     autoload :RailsHelper, 'rubicons/font_awesome5/rails_helper'
 
-    extend BaseIconSet
-
-    SIZE_MAP = BaseIconSet::DEFAULT_SIZE_MAP.freeze
     ICONS_PATH = File.expand_path('../../icons/font_awesome5', __dir__)
 
     class << self
+      def pack_name
+        'Font Awesome 5'
+      end
+
+      def description
+        'Font Awesome 5 is an icon set used by millions of designers, developers, and content creators with icons for web development, mobile apps, and desktop applications.'
+      end
+
+      def license
+        'Multiple'
+      end
+
       def icon(name, **options)
-        render_icon(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, **options)
       end
 
       def icon!(name, **options)
-        render_icon!(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, **options)
       end
 
       def available_icons
-        available_icons(ICONS_PATH)
+        BaseIconSet.available_icons(ICONS_PATH)
       end
     end
   end

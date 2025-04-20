@@ -34,12 +34,10 @@ $ gem install rubicons
 
 ## Icon Collections
 
-Rubicons provides access to **20** popular icon libraries with thousands of icons:
+Rubicons provides access to **22** popular icon libraries with thousands of icons:
 
 | Icon Library | Version | License | Count | Example Icons |
 | --- | --- | --- | ---: | --- |
-| [Lucide](https://lucide.dev/) | Latest | [ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1,565 | `heart`, `activity`, `book`, `check`, `user` |
-| [Radix UI](https://www.radix-ui.com/icons) | Latest | [MIT](https://github.com/radix-ui/icons/blob/master/LICENSE) | 318 | `accessibility`, `activity-log`, `align-bottom`, `align-center-horizontally`, `bookmark` |
 | [Bootstrap](https://icons.getbootstrap.com/) | v1.11.3 | [MIT](https://github.com/twbs/icons/blob/main/LICENSE) | 2,050 | `alarm`, `heart`, `calendar`, `circle`, `house` |
 | [Box Icons](https://boxicons.com/) | Latest | [MIT/CC 4.0](https://github.com/atisawd/boxicons/blob/master/LICENSE) | 1,634 | `bx-home`, `bx-search`, `bx-menu`, `bx-user`, `bxl-github` |
 | [Circum Icons](https://circumicons.com/) | Latest | [MPL-2.0](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 288 | `alarm-on`, `align-center-h`, `arrow`, `check`, `user` |
@@ -51,9 +49,11 @@ Rubicons provides access to **20** popular icon libraries with thousands of icon
 | [Ionicons 4](https://ionic.io/ionicons/v4) | v4.6.4-1 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 696 | `ios-add`, `ios-alarm`, `ios-home`, `md-mail`, `md-menu` |
 | [Ionicons 5](https://ionic.io/ionicons) | v5.5.4 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 1,332 | `accessibility`, `add-circle`, `home`, `mail`, `menu` |
 | [Line Awesome](https://icons8.com/line-awesome) | Latest | [MIT/Good Boy](https://github.com/icons8/line-awesome/blob/master/LICENSE.md) | 1,544 | `500px`, `accessible-icon`, `github`, `user-solid`, `heart` |
+| [Lucide](https://lucide.dev/) | Latest | [ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1,565 | `heart`, `activity`, `book`, `check`, `user` |
 | [Material Design](https://materialdesignicons.com/) | v4.0.0 | [Apache 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | 6862 | `action-3d-rotation`, `action-accessibility`, `action-account-circle`, `content-home`, `action-settings` |
 | [Octicons](https://primer.github.io/octicons/) | v18.3.0 | [MIT](https://github.com/primer/octicons/blob/main/LICENSE) | 576 | `accessibility-16`, `alert-16`, `check-16`, `code-16`, `mark-github-16` |
 | [Phosphor Icons](https://phosphoricons.com/) | Latest | [MIT](https://github.com/phosphor-icons/core/blob/main/LICENSE) | 9,072 | `acorn-bold`, `user-bold`, `heart-fill`, `house-line`, `calendar` |
+| [Radix UI](https://www.radix-ui.com/icons) | Latest | [MIT](https://github.com/radix-ui/icons/blob/master/LICENSE) | 318 | `accessibility`, `activity-log`, `align-bottom`, `align-center-horizontally`, `bookmark` |
 | [Remix Icon](https://remixicon.com/) | v4.2.0 | [Apache 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 2,860 | `arrow-down-circle-fill`, `home-line`, `user-fill`, `search-line`, `check-line` |
 | [Tabler Icons](https://tabler-icons.io/) | v3.31.0 | [MIT](https://github.com/tabler/tabler-icons/blob/master/LICENSE) | 5,880 | `filled-accessible`, `filled-home`, `filled-user`, `filled-search`, `brand-github` |
 | [Themify](https://themify.me/themify-icons) | v1.0.1 | [SIL OFL/MIT](https://github.com/lykmapipo/themify-icons/blob/master/README.md#license) | 352 | `angle-down`, `agenda`, `alarm-clock`, `alert`, `align-center` |

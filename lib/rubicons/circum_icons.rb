@@ -7,22 +7,31 @@ module Rubicons
   module CircumIcons
     autoload :RailsHelper, 'rubicons/circum_icons/rails_helper'
 
-    extend BaseIconSet
-
-    SIZE_MAP = BaseIconSet::DEFAULT_SIZE_MAP.freeze
     ICONS_PATH = File.expand_path('../../icons/circum_icons', __dir__)
 
     class << self
+      def pack_name
+        'Circum Icons'
+      end
+
+      def description
+        'Circum Icons is a clean and consistent open-source icon library with a focus on circular design elements for modern interfaces.'
+      end
+
+      def license
+        'MPL-2.0'
+      end
+
       def icon(name, **options)
-        render_icon(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, **options)
       end
 
       def icon!(name, **options)
-        render_icon!(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, **options)
       end
 
       def available_icons
-        available_icons(ICONS_PATH)
+        BaseIconSet.available_icons(ICONS_PATH)
       end
     end
   end

@@ -7,22 +7,31 @@ module Rubicons
   module TablerIcons
     autoload :RailsHelper, 'rubicons/tabler_icons/rails_helper'
 
-    extend BaseIconSet
-
-    SIZE_MAP = BaseIconSet::DEFAULT_SIZE_MAP.freeze
     ICONS_PATH = File.expand_path('../../icons/tabler_icons', __dir__)
 
     class << self
+      def pack_name
+        'Tabler Icons'
+      end
+
+      def description
+        'Tabler Icons is a set of over 1,950 free MIT-licensed high-quality SVG icons for web design with a consistent style and optimized for clarity even at small sizes.'
+      end
+
+      def license
+        'MIT'
+      end
+
       def icon(name, **options)
-        render_icon(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, **options)
       end
 
       def icon!(name, **options)
-        render_icon!(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, **options)
       end
 
       def available_icons
-        available_icons(ICONS_PATH)
+        BaseIconSet.available_icons(ICONS_PATH)
       end
     end
   end

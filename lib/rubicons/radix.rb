@@ -6,22 +6,31 @@ module Rubicons
   module Radix
     autoload :RailsHelper, 'rubicons/radix/rails_helper'
 
-    extend BaseIconSet
-
-    SIZE_MAP = BaseIconSet::DEFAULT_SIZE_MAP.freeze
     ICONS_PATH = File.expand_path('../../icons/radix', __dir__)
 
     class << self
+      def pack_name
+        'Radix UI Icons'
+      end
+
+      def description
+        'Radix UI Icons is a crisp set of icons designed by the Radix UI team, primarily for use with Radix UI components and modern web applications.'
+      end
+
+      def license
+        'MIT'
+      end
+
       def icon(name, **options)
-        render_icon(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, **options)
       end
 
       def icon!(name, **options)
-        render_icon!(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, **options)
       end
 
       def available_icons
-        available_icons(ICONS_PATH)
+        BaseIconSet.available_icons(ICONS_PATH)
       end
     end
   end

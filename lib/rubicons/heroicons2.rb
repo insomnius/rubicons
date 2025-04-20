@@ -7,22 +7,31 @@ module Rubicons
   module Heroicons2
     autoload :RailsHelper, 'rubicons/heroicons2/rails_helper'
 
-    extend BaseIconSet
-
-    SIZE_MAP = BaseIconSet::DEFAULT_SIZE_MAP.freeze
     ICONS_PATH = File.expand_path('../../icons/heroicons2', __dir__)
 
     class << self
+      def pack_name
+        'Heroicons v2'
+      end
+
+      def description
+        'Heroicons v2 is the latest version of the beautiful hand-crafted SVG icons from the makers of Tailwind CSS, with solid and outline variants in multiple sizes.'
+      end
+
+      def license
+        'MIT'
+      end
+
       def icon(name, **options)
-        render_icon(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, **options)
       end
 
       def icon!(name, **options)
-        render_icon!(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, **options)
       end
 
       def available_icons
-        available_icons(ICONS_PATH)
+        BaseIconSet.available_icons(ICONS_PATH)
       end
     end
   end

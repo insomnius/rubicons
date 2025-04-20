@@ -1,7 +1,7 @@
 all: gem push
 
 gem:
-	@echo "Building gem $(shell ls -l rubicons-*.gem | awk '{print $$NF}' | tail -n 1)"
+	@echo "Building gem..."
 	@gem build rubicons.gemspec
 	@echo "Run 'gem install $(shell ls -l rubicons-*.gem | awk '{print $$NF}' | tail -n 1)' to install the latest gem"
 	@gem install $(shell ls -l rubicons-*.gem | awk '{print $$NF}' | tail -n 1)
