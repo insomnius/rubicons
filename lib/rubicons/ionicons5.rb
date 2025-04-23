@@ -14,7 +14,7 @@ module Rubicons
         'Ionicons 5'
       end
 
-      def description
+      def pack_description
         'Ionicons 5 is the latest version of the icon pack for Ionic Framework applications with beautifully crafted icons optimized for web, iOS, and Material Design.'
       end
 

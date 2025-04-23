@@ -14,7 +14,7 @@ module Rubicons
         'Feather Icons'
       end
 
-      def description
+      def pack_description
         'Feather is a collection of simply beautiful open source icons designed by Cole Bemis. Each icon is designed on a 24×24 grid with an emphasis on simplicity, consistency, and readability.'
       end
 

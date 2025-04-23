@@ -14,7 +14,7 @@ module Rubicons
         'Tabler Icons'
       end
 
-      def description
+      def pack_description
         'Tabler Icons is a set of over 1,950 free MIT-licensed high-quality SVG icons for web design with a consistent style and optimized for clarity even at small sizes.'
       end
 

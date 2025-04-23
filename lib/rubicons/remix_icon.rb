@@ -14,7 +14,7 @@ module Rubicons
         'Remix Icon'
       end
 
-      def description
+      def pack_description
         'Remix Icon is a set of open-source neutral-style system symbols for designers and developers. Unlike other icon sets, Remix Icon provides more than 2000 icons in various categories.'
       end
 

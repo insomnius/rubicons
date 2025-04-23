@@ -13,7 +13,7 @@ module Rubicons
         'Lucide'
       end
 
-      def description
+      def pack_description
         'Lucide is a beautiful and consistent icon toolkit made by the community. It is a fork of Feather Icons with hundreds of additional icons and active community development.'
       end
 

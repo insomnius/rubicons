@@ -14,7 +14,7 @@ module Rubicons
         'Typicons'
       end
 
-      def description
+      def pack_description
         'Typicons is a carefully crafted set of free-to-use vector icons with a minimal and modern style that can be used in both personal and commercial projects.'
       end
 

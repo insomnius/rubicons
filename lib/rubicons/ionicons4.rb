@@ -14,7 +14,7 @@ module Rubicons
         'Ionicons 4'
       end
 
-      def description
+      def pack_description
         'Ionicons 4 is a premium icon library for Ionic Framework with iOS, Material Design, and outline versions of commonly used icons.'
       end
 

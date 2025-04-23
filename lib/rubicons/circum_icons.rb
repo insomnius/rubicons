@@ -14,7 +14,7 @@ module Rubicons
         'Circum Icons'
       end
 
-      def description
+      def pack_description
         'Circum Icons is a clean and consistent open-source icon library with a focus on circular design elements for modern interfaces.'
       end
 

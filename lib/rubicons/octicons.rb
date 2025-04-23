@@ -14,7 +14,7 @@ module Rubicons
         'Octicons'
       end
 
-      def description
+      def pack_description
         'Octicons are GitHub\'s open-source icon set, providing a clean and consistent way to add visual elements to your project with icons used across GitHub\'s interface.'
       end
 

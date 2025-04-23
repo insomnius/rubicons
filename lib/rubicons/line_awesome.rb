@@ -14,7 +14,7 @@ module Rubicons
         'Line Awesome'
       end
 
-      def description
+      def pack_description
         'Line Awesome is a free alternative to Font Awesome with over 1,500 icons that can be easily swapped between Font Awesome and Line Awesome.'
       end
 

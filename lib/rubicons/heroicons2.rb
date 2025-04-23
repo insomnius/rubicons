@@ -14,7 +14,7 @@ module Rubicons
         'Heroicons v2'
       end
 
-      def description
+      def pack_description
         'Heroicons v2 is the latest version of the beautiful hand-crafted SVG icons from the makers of Tailwind CSS, with solid and outline variants in multiple sizes.'
       end
 

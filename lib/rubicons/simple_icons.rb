@@ -14,7 +14,7 @@ module Rubicons
         'Simple Icons'
       end
 
-      def description
+      def pack_description
         'Simple Icons is a collection of SVG icons for popular brands and services, perfect for use in projects that require recognizable logos and brand marks.'
       end
 

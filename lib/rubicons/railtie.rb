@@ -4,6 +4,7 @@ require 'rails'
 require 'rubicons/bootstrap'
 require 'rubicons/box_icons'
 require 'rubicons/circum_icons'
+require 'rubicons/devicon'
 require 'rubicons/feather'
 require 'rubicons/font_awesome5'
 require 'rubicons/font_awesome6'
@@ -32,6 +33,7 @@ module Rubicons
         include Rubicons::Bootstrap::RailsHelper
         include Rubicons::BoxIcons::RailsHelper
         include Rubicons::CircumIcons::RailsHelper
+        include Rubicons::Devicon::RailsHelper
         include Rubicons::Feather::RailsHelper
         include Rubicons::FontAwesome5::RailsHelper
         include Rubicons::FontAwesome6::RailsHelper

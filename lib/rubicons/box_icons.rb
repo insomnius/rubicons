@@ -14,7 +14,7 @@ module Rubicons
         'Box Icons'
       end
 
-      def description
+      def pack_description
         'Box Icons is a free collection of carefully crafted open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.'
       end
 

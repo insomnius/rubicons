@@ -14,7 +14,7 @@ module Rubicons
         'Weather Icons'
       end
 
-      def description
+      def pack_description
         'Weather Icons is a comprehensive collection of weather-themed icons designed for meteorological and forecast applications, featuring hundreds of detailed climate and weather symbols.'
       end
 

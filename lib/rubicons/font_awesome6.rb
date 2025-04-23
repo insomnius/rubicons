@@ -14,7 +14,7 @@ module Rubicons
         'Font Awesome 6'
       end
 
-      def description
+      def pack_description
         'Font Awesome 6 is the latest version of the popular icon library with thousands of icons for web, mobile, and desktop applications across various styles and categories.'
       end
 

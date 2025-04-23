@@ -14,7 +14,7 @@ module Rubicons
         'Material Design Icons'
       end
 
-      def description
+      def pack_description
         'Material Design Icons is a collection of icons based on Google\'s Material Design guidelines, providing thousands of icons across various categories for modern web and app development.'
       end
 

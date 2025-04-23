@@ -34,13 +34,14 @@ $ gem install rubicons
 
 ## Icon Collections
 
-Rubicons provides access to **22** popular icon libraries with thousands of icons:
+Rubicons provides access to **23** popular icon libraries with thousands of icons:
 
 | Icon Library | Version | License | Count | Example Icons |
 | --- | --- | --- | ---: | --- |
 | [Bootstrap](https://icons.getbootstrap.com/) | v1.11.3 | [MIT](https://github.com/twbs/icons/blob/main/LICENSE) | 2,050 | `alarm`, `heart`, `calendar`, `circle`, `house` |
 | [Box Icons](https://boxicons.com/) | Latest | [MIT/CC 4.0](https://github.com/atisawd/boxicons/blob/master/LICENSE) | 1,634 | `bx-home`, `bx-search`, `bx-menu`, `bx-user`, `bxl-github` |
 | [Circum Icons](https://circumicons.com/) | Latest | [MPL-2.0](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 288 | `alarm-on`, `align-center-h`, `arrow`, `check`, `user` |
+| [Devicon](https://devicon.dev/) | v2.16.0 | [MIT](https://github.com/devicons/devicon/blob/master/LICENSE) | 1520 | `aarch64-line.svg`, `aarch64-original.svg`, `aarch64-plain.svg`, `adonisjs-original-wordmark.svg`, `adonisjs-original.svg` |
 | [Feather](https://feathericons.com/) | v4.29.1 | [MIT](https://github.com/feathericons/feather/blob/master/LICENSE) | 287 | `activity`, `alert-circle`, `airplay`, `message-square`, `star` |
 | [Font Awesome 5](https://fontawesome.com/) | v5.15.4 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/5.x/LICENSE.txt) | 1,612 | `brands-github`, `solid-user`, `regular-heart`, `solid-home`, `solid-star` |
 | [Font Awesome 6](https://fontawesome.com/) | v6.5.2 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 2,045 | `brands-github`, `solid-user`, `solid-house`, `solid-flag`, `solid-shield` |

@@ -11,7 +11,7 @@ module Rubicons
         'Themify Icons'
       end
 
-      def description
+      def pack_description
         'Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that are suitable for various projects.'
       end
 

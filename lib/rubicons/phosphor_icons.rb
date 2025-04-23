@@ -14,7 +14,7 @@ module Rubicons
         'Phosphor Icons'
       end
 
-      def description
+      def pack_description
         'Phosphor Icons is a flexible icon family for interfaces, diagrams, presentations and more with multiple weights and styles for versatile design applications.'
       end
 

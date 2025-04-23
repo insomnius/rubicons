@@ -14,7 +14,7 @@ module Rubicons
         'Bootstrap Icons'
       end
 
-      def description
+      def pack_description
         'Bootstrap Icons is a free, high-quality icon library with over 1,500 icons. It is designed to work seamlessly with Bootstrap and other frameworks.'
       end
 

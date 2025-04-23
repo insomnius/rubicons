@@ -14,7 +14,7 @@ module Rubicons
         'Heroicons v1'
       end
 
-      def description
+      def pack_description
         'Heroicons v1 is a set of free, MIT-licensed high-quality SVG icons for UI development, designed by the makers of Tailwind CSS.'
       end
 

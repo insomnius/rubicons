@@ -3,6 +3,7 @@
 require 'rubicons/version'
 require 'rubicons/base_icon_set'
 require 'rubicons/railtie' if defined?(Rails)
+require 'rubicons/phlex' if defined?(Phlex)
 
 module Rubicons
   # autoload :AntDesign, 'rubicons/ant_design'
@@ -10,7 +11,7 @@ module Rubicons
   autoload :BoxIcons, 'rubicons/box_icons'
   autoload :CircumIcons, 'rubicons/circum_icons'
   # autoload :CssGg, 'rubicons/css_gg'
-  # autoload :Devicons, 'rubicons/devicons'
+  autoload :Devicon, 'rubicons/devicon'
   autoload :Feather, 'rubicons/feather'
   # autoload :FlatColorIcons, 'rubicons/flat_color_icons'
   autoload :FontAwesome5, 'rubicons/font_awesome5'

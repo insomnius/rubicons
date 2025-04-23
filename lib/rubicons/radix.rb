@@ -13,7 +13,7 @@ module Rubicons
         'Radix UI Icons'
       end
 
-      def description
+      def pack_description
         'Radix UI Icons is a crisp set of icons designed by the Radix UI team, primarily for use with Radix UI components and modern web applications.'
       end
 

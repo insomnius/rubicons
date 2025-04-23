@@ -14,7 +14,7 @@ module Rubicons
         'Font Awesome 5'
       end
 
-      def description
+      def pack_description
         'Font Awesome 5 is an icon set used by millions of designers, developers, and content creators with icons for web development, mobile apps, and desktop applications.'
       end
 
