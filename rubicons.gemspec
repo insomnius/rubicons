@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name                   = 'rubicons'
-  spec.version                = '0.7.0'
+  spec.version                = '0.8.0'
   spec.authors                = ['insomnius']
   spec.email                  = ['awake@insomnius.dev']
   spec.summary                = 'Lightweight, pure Ruby SVG icon toolkit inspired by React Icons.'

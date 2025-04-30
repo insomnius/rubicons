@@ -28,7 +28,7 @@ module Rubicons
       end
 
       def available_icons
-        BaseIconSet.available_icons(ICONS_PATH)
+        @available_icons ||= BaseIconSet.available_icons(ICONS_PATH)
       end
     end
   end
