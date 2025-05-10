@@ -44,6 +44,9 @@ module Rubicons
 
         svg_element['width']  = svg_size
         svg_element['height'] = svg_size
+        svg_element['stroke'] = 'currentColor'
+        svg_element['fill'] = 'none'
+        svg_element['viewBox'] = "0 0 #{svg_size} #{svg_size}"
 
         apply_options_to_svg(svg_element, options)
 
