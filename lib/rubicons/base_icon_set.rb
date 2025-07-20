@@ -25,7 +25,13 @@ module Rubicons
       # @option options [Hash] :size_map custom size mapping
       # @return [String] rendered SVG
       def render_icon(name, icons_path, icon_klass, **options)
-        render_icon!(name, icons_path, icon_klass, **options)
+        if block_given?
+          render_icon!(name, icons_path, icon_klass, **options) do |svg_element|
+            yield svg_element
+          end
+        else
+          render_icon!(name, icons_path, icon_klass, **options)
+        end
       rescue
         ''
       end
@@ -46,6 +52,10 @@ module Rubicons
         svg_element['height'] = svg_size
         svg_element['stroke'] = icon_klass.stroke_color
         svg_element['fill'] = icon_klass.fill_color
+
+        if block_given?
+          yield svg_element
+        end
 
         apply_options_to_svg(svg_element, options)
 

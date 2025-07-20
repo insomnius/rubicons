@@ -35,11 +35,11 @@ module Rubicons
       end
 
       def fill_color
-        'none'
+        'currentColor'
       end
 
       def stroke_color
-        'currentColor'
+        'none'
       end
     end
   end

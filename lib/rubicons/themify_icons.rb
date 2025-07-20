@@ -20,11 +20,15 @@ module Rubicons
       end
 
       def icon(name, **options)
-        BaseIconSet.render_icon(name, ICONS_PATH, self, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, self, **options) do |svg_element|
+          svg_element.css('path').each { |path| path['fill'] = 'currentColor' }
+        end
       end
 
       def icon!(name, **options)
-        BaseIconSet.render_icon!(name, ICONS_PATH, self,  **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, self, **options) do |svg_element|
+          svg_element.css('path').each { |path| path['fill'] = 'currentColor' }
+        end
       end
 
       def available_icons
