@@ -3,14 +3,14 @@ all: gem push
 gem:
 	@echo "Building gem..."
 	@gem build rubicons.gemspec
-	@echo "Run 'gem install $(shell ls -l rubicons-*.gem | awk '{print $$NF}' | tail -n 1)' to install the latest gem"
-	@gem install $(shell ls -l rubicons-*.gem | awk '{print $$NF}' | tail -n 1)
-	@echo "Installed $(shell ls -l rubicons-*.gem | awk '{print $$NF}' | tail -n 1)"
+	@echo "Run 'gem install $(shell ls -1 rubicons-*.gem | sort -V | tail -n 1)' to install the latest gem"
+	@gem install $(shell ls -1 rubicons-*.gem | sort -V | tail -n 1)
+	@echo "Installed $(shell ls -1 rubicons-*.gem | sort -V | tail -n 1)"
 
 push:
-	@echo "Pushing $(shell ls -l rubicons-*.gem | awk '{print $$NF}' | tail -n 1) to rubygems.org"
-	@gem push $(shell ls -l rubicons-*.gem | awk '{print $$NF}' | tail -n 1)
-	@echo "Pushed $(shell ls -l rubicons-*.gem | awk '{print $$NF}' | tail -n 1) to rubygems.org"
+	@echo "Pushing $(shell ls -1 rubicons-*.gem | sort -V | tail -n 1) to rubygems.org"
+	@gem push $(shell ls -1 rubicons-*.gem | sort -V | tail -n 1)
+	@echo "Pushed $(shell ls -1 rubicons-*.gem | sort -V | tail -n 1) to rubygems.org"
 
 count_icons:
 	@find icons -mindepth 1 -maxdepth 1 -type d | xargs -I{} bash -c 'echo -n "{}: "; find {} -type f -name "*.svg" | wc -l'
