@@ -23,11 +23,17 @@ module Rubicons
       end
 
       def icon(name, **options)
-        BaseIconSet.render_icon(name, ICONS_PATH, self, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, self, **options) do |svg_element|
+          svg_element.css('path').each { |path| path['stroke'] = 'currentColor' } if name.to_s.include?('outline')
+          svg_element.css('path').each { |path| path['fill'] = 'currentColor' } if name.to_s.include?('solid')
+        end
       end
 
       def icon!(name, **options)
-        BaseIconSet.render_icon!(name, ICONS_PATH, self, **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, self, **options) do |svg_element|
+          svg_element.css('path').each { |path| path['stroke'] = 'currentColor' } if name.to_s.include?('outline')
+          svg_element.css('path').each { |path| path['fill'] = 'currentColor' } if name.to_s.include?('solid')
+        end
       end
 
       def available_icons
@@ -35,7 +41,7 @@ module Rubicons
       end
 
       def fill_color
-        'currentColor'
+        'none'
       end
 
       def stroke_color

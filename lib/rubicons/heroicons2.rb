@@ -23,11 +23,21 @@ module Rubicons
       end
 
       def icon(name, **options)
-        BaseIconSet.render_icon(name, ICONS_PATH, self, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, self, **options) do |svg_element|
+          next unless name.to_s.include?('outline')
+
+          svg_element['stroke'] = 'currentColor'
+          svg_element['fill'] = 'none'
+        end
       end
 
       def icon!(name, **options)
-        BaseIconSet.render_icon!(name, ICONS_PATH, self, **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, self, **options) do |svg_element|
+          next unless name.to_s.include?('outline')
+
+          svg_element['stroke'] = 'currentColor'
+          svg_element['stroke'] = 'currentColor'
+        end
       end
 
       def available_icons
