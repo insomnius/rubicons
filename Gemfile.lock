@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubicons (0.2.1)
+    rubicons (0.10.0)
 
 GEM
   remote: https://rubygems.org/

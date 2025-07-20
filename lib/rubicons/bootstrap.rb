@@ -23,11 +23,19 @@ module Rubicons
       end
 
       def icon(name, **options)
-        BaseIconSet.render_icon(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon(name, ICONS_PATH, self, **options)
       end
 
       def icon!(name, **options)
-        BaseIconSet.render_icon!(name, ICONS_PATH, **options)
+        BaseIconSet.render_icon!(name, ICONS_PATH, self, **options)
+      end
+
+      def fill_color
+        'currentColor'
+      end
+
+      def stroke_color
+        'none'
       end
 
       def available_icons

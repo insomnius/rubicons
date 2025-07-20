@@ -24,13 +24,13 @@ module Rubicons
       # @option options [String] :class CSS classes to add
       # @option options [Hash] :size_map custom size mapping
       # @return [String] rendered SVG
-      def render_icon(name, icons_path, **options)
-        render_icon!(name, icons_path, **options)
+      def render_icon(name, icons_path, icon_klass, **options)
+        render_icon!(name, icons_path, icon_klass, **options)
       rescue
         ''
       end
 
-      def render_icon!(name, icons_path, **options)
+      def render_icon!(name, icons_path, icon_klass, **options)
         icon_path = File.join(icons_path, "#{name}.svg")
         raise ArgumentError, "Icon '#{name}' not found" unless File.exist?(icon_path)
 
@@ -44,9 +44,8 @@ module Rubicons
 
         svg_element['width']  = svg_size
         svg_element['height'] = svg_size
-        svg_element['stroke'] = 'currentColor'
-        svg_element['fill'] = 'none'
-        svg_element['viewBox'] = "0 0 #{svg_size} #{svg_size}"
+        svg_element['stroke'] = icon_klass.stroke_color
+        svg_element['fill'] = icon_klass.fill_color
 
         apply_options_to_svg(svg_element, options)
 
