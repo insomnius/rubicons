@@ -34,19 +34,25 @@ $ gem install rubicons
 
 ## Icon Collections
 
-Rubicons provides access to **23** popular icon libraries with thousands of icons:
+Rubicons provides access to **31** popular icon libraries with thousands of icons:
 
 | Icon Library | Version | License | Count | Example Icons |
 | --- | --- | --- | ---: | --- |
+| [Ant Design](https://ant.design/components/icon) | Latest | [MIT](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 831 | `outlined-home`, `filled-heart`, `outlined-user`, `twotone-star`, `outlined-search` |
 | [Bootstrap](https://icons.getbootstrap.com/) | v1.11.3 | [MIT](https://github.com/twbs/icons/blob/main/LICENSE) | 2,050 | `alarm`, `heart`, `calendar`, `circle`, `house` |
 | [Box Icons](https://boxicons.com/) | Latest | [MIT/CC 4.0](https://github.com/atisawd/boxicons/blob/master/LICENSE) | 1,634 | `bx-home`, `bx-search`, `bx-menu`, `bx-user`, `bxl-github` |
 | [Circum Icons](https://circumicons.com/) | Latest | [MPL-2.0](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 288 | `alarm-on`, `align-center-h`, `arrow`, `check`, `user` |
+| [css.gg](https://css.gg/) | Latest | [MIT](https://github.com/astrit/css.gg/blob/main/LICENSE) | 704 | `add`, `arrow-right`, `check`, `close`, `heart` |
 | [Devicon](https://devicon.dev/) | v2.16.0 | [MIT](https://github.com/devicons/devicon/blob/master/LICENSE) | 1520 | `aarch64-line.svg`, `aarch64-original.svg`, `aarch64-plain.svg`, `adonisjs-original-wordmark.svg`, `adonisjs-original.svg` |
 | [Feather](https://feathericons.com/) | v4.29.1 | [MIT](https://github.com/feathericons/feather/blob/master/LICENSE) | 287 | `activity`, `alert-circle`, `airplay`, `message-square`, `star` |
+| [Flat Color Icons](https://icons8.github.io/flat-color-icons/) | Latest | [MIT](https://github.com/icons8/flat-color-icons/blob/master/LICENSE.md) | 329 | `about`, `add-image`, `alarm-clock`, `android-os`, `approval` |
 | [Font Awesome 5](https://fontawesome.com/) | v5.15.4 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/5.x/LICENSE.txt) | 1,612 | `brands-github`, `solid-user`, `regular-heart`, `solid-home`, `solid-star` |
 | [Font Awesome 6](https://fontawesome.com/) | v6.5.2 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 2,045 | `brands-github`, `solid-user`, `solid-house`, `solid-flag`, `solid-shield` |
+| [Game Icons](https://game-icons.net/) | Latest | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | TBD (large archive) | `lorc-sword`, `delapouite-axe`, `lorc-shield`, `skoll-bow`, `delapouite-helmet` |
+| [Grommet Icons](https://icons.grommet.io/) | Latest | [Apache 2.0](https://github.com/grommet/grommet-icons/blob/master/LICENSE) | 637 | `accessibility`, `achievement`, `action`, `add`, `alarm` |
 | [Heroicons v1](https://v1.heroicons.com/) | v1.0.6 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 460 | `outline-academic-cap`, `outline-archive`, `solid-home`, `outline-menu`, `solid-user` |
 | [Heroicons v2](https://heroicons.com/) | v2.1.3 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 1,176 | `16-solid-academic-cap`, `24-outline-home`, `24-solid-user`, `20-solid-calendar`, `16-outline-bell` |
+| [IcoMoon Free](https://icomoon.io/#icons-icomoon-free) | Latest | [CC BY 4.0](https://github.com/Keyamoon/IcoMoon-Free/blob/master/License.txt) | 491 | `001-home`, `002-home2`, `006-pencil`, `014-image`, `018-music` |
 | [Ionicons 4](https://ionic.io/ionicons/v4) | v4.6.4-1 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 696 | `ios-add`, `ios-alarm`, `ios-home`, `md-mail`, `md-menu` |
 | [Ionicons 5](https://ionic.io/ionicons) | v5.5.4 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 1,332 | `accessibility`, `add-circle`, `home`, `mail`, `menu` |
 | [Line Awesome](https://icons8.com/line-awesome) | Latest | [MIT/Good Boy](https://github.com/icons8/line-awesome/blob/master/LICENSE.md) | 1,544 | `500px`, `accessible-icon`, `github`, `user-solid`, `heart` |
@@ -56,9 +62,12 @@ Rubicons provides access to **23** popular icon libraries with thousands of icon
 | [Phosphor Icons](https://phosphoricons.com/) | Latest | [MIT](https://github.com/phosphor-icons/core/blob/main/LICENSE) | 9,072 | `acorn-bold`, `user-bold`, `heart-fill`, `house-line`, `calendar` |
 | [Radix UI](https://www.radix-ui.com/icons) | Latest | [MIT](https://github.com/radix-ui/icons/blob/master/LICENSE) | 318 | `accessibility`, `activity-log`, `align-bottom`, `align-center-horizontally`, `bookmark` |
 | [Remix Icon](https://remixicon.com/) | v4.2.0 | [Apache 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 2,860 | `arrow-down-circle-fill`, `home-line`, `user-fill`, `search-line`, `check-line` |
+| [Simple Icons](https://simpleicons.org/) | Latest | [CC0 1.0](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md) | 3,014 | `github`, `ruby`, `rubygems`, `rails`, `linux` |
+| [Simple Line Icons](https://thesabbir.github.io/simple-line-icons/) | Latest | [MIT](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 189 | `heart`, `home`, `user`, `settings`, `cloud-upload` |
 | [Tabler Icons](https://tabler-icons.io/) | v3.31.0 | [MIT](https://github.com/tabler/tabler-icons/blob/master/LICENSE) | 5,880 | `filled-accessible`, `filled-home`, `filled-user`, `filled-search`, `brand-github` |
 | [Themify](https://themify.me/themify-icons) | v1.0.1 | [SIL OFL/MIT](https://github.com/lykmapipo/themify-icons/blob/master/README.md#license) | 352 | `angle-down`, `agenda`, `alarm-clock`, `alert`, `align-center` |
 | [Typicons](https://www.s-ings.com/typicons/) | v2.1.2 | [SIL OFL](https://github.com/stephenhutchings/typicons.font/blob/master/README.md#license) | 336 | `anchor`, `adjust-brightness`, `adjust-contrast`, `archive`, `heart` |
+| [VS Code Icons](https://github.com/vscode-icons/vscode-icons) | Latest | [MIT](https://github.com/vscode-icons/vscode-icons/blob/master/LICENSE) | 1,493 | `default_file`, `default_folder`, `file_type_js_official`, `file_type_ruby`, `folder_type_src` |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | v2.0.12 | [SIL OFL 1.1](https://github.com/erikflowers/weather-icons/blob/master/COPYING) | 219 | `wi-alien`, `wi-barometer`, `wi-celsius`, `wi-cloud-refresh`, `wi-cloud-down` |
 
 ## Usage

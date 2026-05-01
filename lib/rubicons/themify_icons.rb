@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require 'nokogiri'
+require 'rubicons/base_icon_set'
+
 module Rubicons
   module ThemifyIcons
     autoload :RailsHelper, 'rubicons/themify_icons/rails_helper'
