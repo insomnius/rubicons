@@ -43,9 +43,13 @@ class Rubicons::LucideTest < Minitest::Test
     assert_includes icon, 'height="20"'
   end
 
-  def test_nonexistent_icon
+  def test_nonexistent_icon_returns_empty_string
+    assert_equal '', Rubicons::Lucide.icon('nonexistent-icon')
+  end
+
+  def test_nonexistent_icon_bang_raises
     assert_raises ArgumentError do
-      Rubicons::Lucide.icon('nonexistent-icon')
+      Rubicons::Lucide.icon!('nonexistent-icon')
     end
   end
 

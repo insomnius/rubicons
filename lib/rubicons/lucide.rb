@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'nokogiri'
+require 'rubicons/base_icon_set'
 
 module Rubicons
   module Lucide

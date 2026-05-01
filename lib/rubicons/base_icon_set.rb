@@ -50,8 +50,18 @@ module Rubicons
 
         svg_element['width']  = svg_size
         svg_element['height'] = svg_size
-        svg_element['stroke'] = icon_klass.stroke_color
-        svg_element['fill'] = icon_klass.fill_color
+
+        if icon_klass.stroke_color.nil?
+          svg_element.delete('stroke')
+        else
+          svg_element['stroke'] = icon_klass.stroke_color
+        end
+
+        if icon_klass.fill_color.nil?
+          svg_element.delete('fill')
+        else
+          svg_element['fill'] = icon_klass.fill_color
+        end
 
         if block_given?
           yield svg_element
