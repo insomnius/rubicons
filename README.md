@@ -34,18 +34,21 @@ $ gem install rubicons
 
 ## Icon Collections
 
-Rubicons provides access to **31** popular icon libraries with thousands of icons:
+Rubicons provides access to **41** popular icon libraries with thousands of icons:
 
 | Icon Library | Version | License | Count | Example Icons |
 | --- | --- | --- | ---: | --- |
 | [Ant Design](https://ant.design/components/icon) | Latest | [MIT](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 831 | `outlined-home`, `filled-heart`, `outlined-user`, `twotone-star`, `outlined-search` |
 | [Bootstrap](https://icons.getbootstrap.com/) | v1.11.3 | [MIT](https://github.com/twbs/icons/blob/main/LICENSE) | 2,050 | `alarm`, `heart`, `calendar`, `circle`, `house` |
 | [Box Icons](https://boxicons.com/) | Latest | [MIT/CC 4.0](https://github.com/atisawd/boxicons/blob/master/LICENSE) | 1,634 | `bx-home`, `bx-search`, `bx-menu`, `bx-user`, `bxl-github` |
+| [Carbon Icons](https://carbondesignsystem.com/elements/icons/library/) | Latest | [Apache 2.0](https://github.com/carbon-design-system/carbon/blob/main/LICENSE) | 2,661 | `home`, `user--avatar`, `chart--bar`, `warning--filled`, `arrow--right` |
 | [Circum Icons](https://circumicons.com/) | Latest | [MPL-2.0](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 288 | `alarm-on`, `align-center-h`, `arrow`, `check`, `user` |
 | [css.gg](https://css.gg/) | Latest | [MIT](https://github.com/astrit/css.gg/blob/main/LICENSE) | 704 | `add`, `arrow-right`, `check`, `close`, `heart` |
 | [Devicon](https://devicon.dev/) | v2.16.0 | [MIT](https://github.com/devicons/devicon/blob/master/LICENSE) | 1520 | `aarch64-line.svg`, `aarch64-original.svg`, `aarch64-plain.svg`, `adonisjs-original-wordmark.svg`, `adonisjs-original.svg` |
+| [EOS Icons](https://gitlab.com/SUSE-UIUX/eos-icons) | Latest | [MIT](https://github.com/EOS-uiux-Solutions/eos-icons/blob/master/LICENSE) | 243 | `home`, `user`, `settings`, `filled-heart`, `filled-workload` |
 | [Feather](https://feathericons.com/) | v4.29.1 | [MIT](https://github.com/feathericons/feather/blob/master/LICENSE) | 287 | `activity`, `alert-circle`, `airplay`, `message-square`, `star` |
 | [Flat Color Icons](https://icons8.github.io/flat-color-icons/) | Latest | [MIT](https://github.com/icons8/flat-color-icons/blob/master/LICENSE.md) | 329 | `about`, `add-image`, `alarm-clock`, `android-os`, `approval` |
+| [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) | Latest | [MIT](https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE) | TBD (run download) | `regular-home`, `filled-heart`, `regular-search`, `regular-person`, `filled-star` |
 | [Font Awesome 5](https://fontawesome.com/) | v5.15.4 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/5.x/LICENSE.txt) | 1,612 | `brands-github`, `solid-user`, `regular-heart`, `solid-home`, `solid-star` |
 | [Font Awesome 6](https://fontawesome.com/) | v6.5.2 | [Multiple](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 2,045 | `brands-github`, `solid-user`, `solid-house`, `solid-flag`, `solid-shield` |
 | [Game Icons](https://game-icons.net/) | Latest | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | TBD (large archive) | `lorc-sword`, `delapouite-axe`, `lorc-shield`, `skoll-bow`, `delapouite-helmet` |
@@ -53,13 +56,20 @@ Rubicons provides access to **31** popular icon libraries with thousands of icon
 | [Heroicons v1](https://v1.heroicons.com/) | v1.0.6 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 460 | `outline-academic-cap`, `outline-archive`, `solid-home`, `outline-menu`, `solid-user` |
 | [Heroicons v2](https://heroicons.com/) | v2.1.3 | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 1,176 | `16-solid-academic-cap`, `24-outline-home`, `24-solid-user`, `20-solid-calendar`, `16-outline-bell` |
 | [IcoMoon Free](https://icomoon.io/#icons-icomoon-free) | Latest | [CC BY 4.0](https://github.com/Keyamoon/IcoMoon-Free/blob/master/License.txt) | 491 | `001-home`, `002-home2`, `006-pencil`, `014-image`, `018-music` |
+| [Iconoir](https://iconoir.com/) | Latest | [MIT](https://github.com/iconoir-icons/iconoir/blob/main/LICENSE) | 1,671 | `regular-home`, `solid-heart`, `regular-user`, `regular-search`, `solid-star` |
 | [Ionicons 4](https://ionic.io/ionicons/v4) | v4.6.4-1 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 696 | `ios-add`, `ios-alarm`, `ios-home`, `md-mail`, `md-menu` |
 | [Ionicons 5](https://ionic.io/ionicons) | v5.5.4 | [MIT](https://github.com/ionic-team/ionicons/blob/main/LICENSE) | 1,332 | `accessibility`, `add-circle`, `home`, `mail`, `menu` |
 | [Line Awesome](https://icons8.com/line-awesome) | Latest | [MIT/Good Boy](https://github.com/icons8/line-awesome/blob/master/LICENSE.md) | 1,544 | `500px`, `accessible-icon`, `github`, `user-solid`, `heart` |
+| [Lineicons](https://lineicons.com/) | Latest | [MIT](https://github.com/LineiconsHQ/Lineicons/blob/main/LICENSE.md) | 606 | `airbnb`, `alarm-1`, `adobe`, `agenda`, `airtable` |
 | [Lucide](https://lucide.dev/) | Latest | [ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1,565 | `heart`, `activity`, `book`, `check`, `user` |
+| [Majesticons](https://www.majesticons.com/) | Latest | [MIT](https://github.com/halfmage/majesticons/blob/main/LICENSE) | 760 | `heart-line`, `home`, `user-line`, `search`, `arrow-up-line` |
 | [Material Design](https://materialdesignicons.com/) | v4.0.0 | [Apache 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | 6862 | `action-3d-rotation`, `action-accessibility`, `action-account-circle`, `content-home`, `action-settings` |
+| [Material Symbols](https://fonts.google.com/icons) | Latest | [Apache 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | TBD (run download) | `outlined-home`, `rounded-heart`, `sharp-search`, `outlined-person`, `rounded-star` |
+| [MingCute](https://www.mingcute.com/) | Latest | [Apache 2.0](https://github.com/Richard9394/MingCute/blob/main/LICENSE) | 3,324 | `arrow-up_line`, `arrow-up_fill`, `heart_line`, `home_line`, `user_fill` |
+| [MynaUI Icons](https://mynaui.com/icons) | Latest | [MIT](https://github.com/praveenjuge/mynaui-icons/blob/main/LICENSE) | 1,290 | `home`, `heart`, `user`, `search`, `settings` |
 | [Octicons](https://primer.github.io/octicons/) | v18.3.0 | [MIT](https://github.com/primer/octicons/blob/main/LICENSE) | 576 | `accessibility-16`, `alert-16`, `check-16`, `code-16`, `mark-github-16` |
 | [Phosphor Icons](https://phosphoricons.com/) | Latest | [MIT](https://github.com/phosphor-icons/core/blob/main/LICENSE) | 9,072 | `acorn-bold`, `user-bold`, `heart-fill`, `house-line`, `calendar` |
+| [Pixelarticons](https://pixelarticons.com/) | Latest | [MIT](https://github.com/halfmage/pixelarticons/blob/master/LICENSE) | 800 | `heart`, `home`, `user`, `search`, `cart` |
 | [Radix UI](https://www.radix-ui.com/icons) | Latest | [MIT](https://github.com/radix-ui/icons/blob/master/LICENSE) | 318 | `accessibility`, `activity-log`, `align-bottom`, `align-center-horizontally`, `bookmark` |
 | [Remix Icon](https://remixicon.com/) | v4.2.0 | [Apache 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 2,860 | `arrow-down-circle-fill`, `home-line`, `user-fill`, `search-line`, `check-line` |
 | [Simple Icons](https://simpleicons.org/) | Latest | [CC0 1.0](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md) | 3,014 | `github`, `ruby`, `rubygems`, `rails`, `linux` |
